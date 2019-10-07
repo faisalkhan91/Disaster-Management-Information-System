@@ -1,0 +1,242 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+
+\chapter{Background}
+
+This chapter introduces the main concepts and technologies relevant to this work: Section 2.1 introduces Big Data, Section 2.2 portrays cloud computing, and Section 2.3 presents the background on NoSQL data stores.
+
+\section{Big Data}
+
+The onset of information age brought on by the digital revolution has lead to a shift in how data is being produced and stored. Moreover, the recent evolution in web technologies leading to a transition from static websites to dynamic websites that are interacted with, and also with the recent proliferation of smart sensors and smart mobile devices that are always connected to the Internet, it has resulted in enormous amounts of data sets being generated that must be stored and processed. For example, YouTube has 1.9 billion monthly active users, with the website containing more than 5 billions videos with 300 hours of content being added per minute.
+
+The traditional relational database management systems (RDBMS) were designed in an era when the available hardware, storage and processing techniques were comparatively different than they are at present. Hence, traditional approaches to storing and processing data are facing difficulties in meeting the requirements of Big Data processing. This also includes management, search, data transfer between storage nodes, data analysis and visualization.
+
+"Big Data" is a terminology used to define large sets of data that can be both structured and unstructured, as well as complex for traditional data processing techniques. As stated by Beyer and Laney, Big Data has the following three main characteristics also known as the 3V's of Big Data:
+
+\begin{description}
+	
+	\item[$\bullet$ \it Volume.]
+	\hfill\break
+	This refers to the quantity of raw data being generated or processed as well as being stored. Usually  limiting data capture to a percentage of statistically relevant data.
+	
+	\item[$\bullet$ \it Velocity.]
+	\hfill\break
+	This concerns with the speed at which the data is being sent, shared or  processed. Additionally it involves dealing with data that is not static but moves, changes and grows as it is being generated.
+		
+	\item[$\bullet$ \it Variety.]
+	\hfill\break
+	It is defined as the different types of data being produced or processed, this includes structured, unstructured and semi structured data and also data in different formats.
+\end{description}
+
+Occasionally, a fourth V is added: Veracity. Veracity deals with the quality of the data being captured that can lead to more accurate analysis which can help in making right decisions.
+
+Big Data in reference to disaster data management, and more specifically in DMIS, refers to  the large collections of disaster-related data sets being collected from various sources and disaster contributors. Integration of these data sets has to be done to provide efficient support for disaster management. Besides volume, the variety of the disaster-related data is a crucial problem that DMIS must tackle to be able to support the platform. Also to gather accurate information for decision making the veracity of the data has to be significantly taken into account.
+
+Organizations are cognizant that Big Data has the potential to impact core business processes, provide competitive advantage, and increase revenues. Therefore, many enterprises are exploring ways to make better use of Big Data by analyzing them to find meaningful insights which can potentially usher to better business decisions and add value to their ventures. In the area of disaster management efficient use of available information has the potency to improve decision making which can mitigate the impact on human lives and property.
+
+Participation adds value to data, the essence of Big Data is the collaboration of various sources to provide information that would be otherwise difficult to generate individually is of special interest to this research. As stated above, this can also add challenges of its own, however in the domain of disaster management collaboration among many participants is essential for successful response and recovery operations. In the proposed approach to DMIS platform data is sourced from various participants who share information on variety of data sources which are owned by different collaborators. This combined data is processed and analyzed to give useful insights.
+
+\section{Cloud Computing}
+
+The word cloud is used as a metaphor for the Internet and the term "Cloud Computing" is used to describe platforms for distributed computing over the Internet. According to the National Institute of Standards and Technology (NIST), cloud computing is
+\\
+\\
+"a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction."
+
+\hfill
+
+Since Big Data is taxing on resources due to its size, volume and velocity it induces growing computational demands on traditional computing techniques. Cloud computing platform assures that it can fulfill these demands by providing resources in a distributed environment of networked devices to offload the workload for efficient processing. Here, it is important to note the codependency of both these platforms and how it can be beneficial for faster processing leading to cloud computing being one of the key enabling techniques for handling data that is big in every sense of the word; thus it is the logical choice for implementing DMIS on one of these platforms.
+
+Cloud computing is offered as a service, over the network, with varying degree of resources available for consumers to use as per requirements. Many IT companies offer public cloud service at a cost, including Amazon, Microsoft, Google and IBM to name a few. This makes it relatively easy to deploy and maintain the system without the overhead of managing the resources usually associated with setting up a platform at this scale. Alternatively, a private cloud can be setup which may have some advantages over the public model.
+
+NIST has defined the essential characteristics of cloud computing as follows:
+
+\begin{description}
+	\item[$\bullet$ \it On-demand self-service.]
+	\hfill\break
+	Services can be unilaterally provisioned as required, without the need for human interaction.
+	
+	\item[$\bullet$ \it Broad network access.]
+	\hfill\break
+	Services are available over the network and can be accessed through standard mechanisms over all platforms (e.g., mobile phones, tablets, laptops, and workstations).
+	
+	\item[$\bullet$ \it Resource Pooling.]
+	\hfill\break
+	Resources are pooled, using multi-tenancy, to serve multiple consumers based on the demand, while different physical and virtual resources being dynamically alloted; all abstracted from the consumer.
+
+	\item[$\bullet$ \it Rapid elasticity.]
+	\hfill\break
+	Elastic provisioning of resources to rapidly scale capabilities outward or inward based on demand.
+	
+	\item[$\bullet$ \it Measured service.]
+	\hfill\break
+	Consumer pays only for the resources used metered by the service provider using a pay-per-use pricing model.
+\end{description}
+
+As a result, cloud computing systems aim to provide the following benefits:
+
+\begin{description}
+	\item[$\bullet$ \it Availabilty.]
+	\hfill\break
+	The system is operational and accessible even in case of server, network, or data center failure making it highly available.
+	
+	\item[$\bullet$ \it Scalibilty.]
+	\hfill\break
+	This means the ability to handle growing demands.
+	
+	\item[$\bullet$ \it Elasticity.]
+	\hfill\break
+	This means to dynamically allocate resources based on demand or workload by scaling up or down.
+	
+	\item[$\bullet$ \it Performance.]
+	\hfill\break
+	In a pay-per-use model, performance is directly correlated with cost.
+	
+	\item[$\bullet$ \it Multi-tenancy.]
+	\hfill\break
+	Same hardware and software infrastructure is shared between multiple tenants (e.g., services, applications)
+	
+	\item[$\bullet$ \it Fault tolerance.]
+	\hfill\break
+	This refers to the ability of a system to operate even in the presence of failures.
+
+	\item[$\bullet$ \it Load balancing.]
+	\hfill\break
+	Workload is automatically distributed among servers to achieve efficient resource utilization.
+	
+	\item[$\bullet$ \it Ability to run on heterogeneous commodity servers.]
+	\hfill\break
+	Heterogeneity is almost unavoidable in infrastructures involving a large number of nodes.
+\end{description}
+
+In this research, all the benefits mentioned above make cloud computing a choice for managing disaster related data. However, it is important to note that scalability and availability make the decision even more ideal. Scalability facilitates the system to start with minimum resources and expand as the needs grow by adding heterogeneous nodes, while high availability ensures that the system remains accessible in case failures which is particularly of high importance in disaster management domain as it can be expected that disasters can lead to a variety of failures.
+
+The three main cloud computing models that are offered are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). The IaaS model provides resources such as servers (physical or virtual), networks, storage and operating systems. The PaaS model offers a higher-level environment and delivers a computing platform including data storage, programming languages, and Web application servers. Finally, the SaaS model provides on-demand software by offering access to software applications through the Internet.
+
+Specialized variations of these three models have emerged, including Storage as a Service, Database as a Service, Security as a Service, Integration as a Service, and Testing as a Service. The DMIS platform approach proposed in this work applies IaaS model to host the environment.
+
+Cloud computing is also not devoid of any challenges and since the approach proposed in this thesis draws on cloud computing platform, it is faced with the same challenges:
+
+\begin{description}
+	\item[$\bullet$ Security and privacy.]
+	\hfill\break
+	Public cloud services are offered by third party vendors where data is stored and processed on their premises, while resources being shared in a multi-tenant environment; thus, inducing risk to security and privacy of the data. This makes providing a satisfactory solution challenging as it needs to include both the services provider and the service consumer.
+	
+	\item[$\bullet$ Customer lock-in.]
+	\hfill\break
+	Since different vendors offer proprietary products as solutions for various use cases, it makes it difficult to move from one cloud service provider to another. This lack of standardization make consumers vulnerable to price increases. 
+	
+	\item[$\bullet$ Data transfer challenges.]
+	\hfill\break
+	The locations of the data center and the consumer can result in significant network traffic which must be considered when evaluating performance and cost. 
+	
+	\item[$\bullet$ Legal issues.]
+	\hfill\break
+	Public cloud resources may reside in a geographical region with different security and privacy regulations than those in the cloud consumer region. For  example,  European  companies  storing  data  in  the  United  States  expose  their data to easier access by government agencies due to the U.S. Patriot Act \cite{erl2013cloud}.
+	
+	\item[$\bullet$ Application parallelization.]
+	\hfill\break
+	Cloud computing offers additional resources by adding nodes to the system on-demand. Horizontal scaling by adding new servers provides additional processing; however, only applications designed to utilize parallelization can take advantages of such resources.
+\end{description}
+
+Although, the challenges described above are generic and outside the scope of this work, they have a considerable amount of implications on possible implementation of this work in practice. Hence, they need to be taken into consideration when implementing the proposed approach in practice.
+
+As this research includes data storage and processing in the cloud, modern data storage technologies, namely NoSQL data stores, are introduced in Section 2.3.
+
+\section{NoSQL Data Stores}
+
+Relational databases (RDBs) are traditional data storage systems designed for storing structured data. They have been used for decades dues to their reliability, consistency, ACID (Atomicity, Consistency, Isolation, Durability) transactions and query capabilities through SQL. However, RDBs exhibit horizontal scalability challenges, Big Data inefficiencies, and limited availability \cite{han2011novel}. In an attempt to address the challenges encountered by RDBs in handling Big Data and in satisfying cloud requirements, new storage solutions, namely NOSQL data stores \cite{kossmann2010data}, have emerged. Since this work aims to provide a storage solution for disaster-related Big Data, the proposed solution takes advantages of NoSQL data stores.
+
+The terminology "NoSQL" references to "Not only SQL" which highlights the fact that SQL-style querying is not a crucial objective of these data stores. Thus, the term constitutes a large variety of data stores that are not based on the relational model, including specialized solutions designed for highly specific applications such as graph storage. Although there is no set of definition on what constitutes a NoSQL solution, the following set of characteristics is often attributed to them \cite{hecht2011nosql}
+\cite{erl2013cloud} \cite{sadalage2013nosql}:
+
+\begin{description}
+	\item[$\bullet$]
+	Straightforward and flexible non-relational data models. NoSQL databases provide flexible schema, occasionally offering completely schema-free designs. This makes them ready to handle a wide array of data structures \cite{hecht2011nosql}  \cite{cattell2011scalable}.
+	
+	\item[$\bullet$]
+	Ability to scale horizontally over many nodes, which can provide additional processing as well as storage. Some data stores can also improve performance by parallelization of read and/or write operations.
+
+	\item[$\bullet$]
+	High Availability. NoSQL data stores were designed to provide distributed processing, this facilitates redundancy. Many forms of distributed scenarios can be configured, while considering partition tolerance as unavoidable. NoSQL solutions choose to compromise consistency in lieu of availability, resulting in AP (Available / Partition-tolerant) data stores, whereas most RDBMSs are CA (Consistent / Available)
+	
+	\item[$\bullet$]
+	NoSQL movement trades off ACID compliance for other properties, unlike a RDBMS. NoSQL data stores are occasionally referenced as BASE (Basically Available, Soft state, Eventually consistent) \cite{brewer2012cap} systems. In BASE, Basically Available means that the data store is available whenever it is accessed, even if certain parts are not accessible; Soft state calls attention to the fact that the data store can tolerate inconsistency for a certain time period; Eventually consistent emphasizes that after a certain amount of time period, the data store will arrive at a consistent state; it is also known as delayed consistency.
+
+	\item[$\bullet$]
+	Schema normalization is not stressed. A De-normalized schema can provide straightforward data access, decrease the use resource hungry operations such as joins, and can more easily scale horizontally.Although, it is important to note that this approach will result in utilization of more storage for disaster-related data compared to a normalized schema \cite{erl2013cloud}.	
+\end{description}
+
+Two fundamental elements in enabling NoSQL data stores are distributed computing and cloud computing. When traditional data stores were introduced, available storage space was very limited and hence normalization was highly desired, while redundancy was avoided. As data storage grew larger and cheaper as well as faster due to introduction of new technologies in the area of non-volatile storage, also due to distributed and cloud computing helping in scaling storage to provide massive amounts of space, the need to save on space has decreased. However, the immense quantity of operations imposes strict performance requirements, thus, the focus has shifted from minimizing redundancy and storage requirements to improving performance \cite{erl2013cloud}. As a consequence, NoSQL schemas are often de-normalized, resulting in large storage size, but provide a number of advantages including:
+
+\begin{description}
+	\item[$\bullet$]
+	Improved horizontal scaling as de-normalized schema can be partitioned easily,
+	
+	\item[$\bullet$]
+	Since the data is redundant by nature, it can be replicated in order to simplify data access.
+	
+	\item[$\bullet$]
+	Operations that are resource intensive, such as joins, can be avoided.
+	
+	\item[$\bullet$]
+	Schema can closely resemble application object model and hence reduce impedance mismatch.
+\end{description}
+
+The attributes affecting the choice to make NoSQL data stores a suitable storage option for disaster information data management solution proposed in this work include their flexible data model, horizontal scalability, and high availability. A flexible data model facilitates storage of diverse disaster-related data, horizontal scalability facilitates a NoSQL data store to accommodate growing storage needs by adding commodity servers, and high availability ensures uninterrupted operation in case or failures caused due to disasters.
+
+NoSQL data stores are basically classified according to their data model. Since there is no definition on what exactly constitutes a NoSQL data store, various categorizations have been proposed \cite{cattell2011scalable}  \cite{sadalage2013nosql}. This research adopts the categorization into four categories: document stores, key-value data stores, column-family stores, and graph databases \cite{hecht2011nosql} \cite{sadalage2013nosql} \cite{cure2011data}. The following discussion introduces the four NoSQL data store categories and focuses on the main characteristics relevant for their use in the DMIS platform.
+
+\textbf{Document Data Stores} are designed around the concept of a document and focus on optimizing storage and access for semi-structured documents as opposed to rows or records. These are derivatives of the key-value store data model with documents stored in the value part of the key-value pair. The documents, typically in JSON (JavaScript Object Notation) or BSON (Binary JSON) representation, are hierarchical trees which encapsulate and encode data. The documents within the data store can have different structures, which provide storage flexibility. At the same time, the document structure enables querying capabilities as fields within documents that can be used as query criteria. Example data stores from this category  include CouchDB, MongoDB, and Couchbase Server \cite{sadalage2013nosql}.
+
+In the context of DMIS, document data stores provide two advantages: querying capabilities and flexible storage. Querying capabilities are made possible by the structure of the documents within the data store,  while storage  flexibility is  achieved by allowing documents  within the  store to  have  different  structures.  However,  querying  capabilities and storage flexibility are competing  attributes:  a  certain  structural  consistency  among documents is needed to support querying, while excessive structural consistency decreases storage flexibility.
+
+\textbf{Key-Value Data Stores} have the simplest data model: they provide a simple mapping from each key to its corresponding value. They are primarily used for simple operations in which all access to the store is through a primary key. Client applications can set the value for a key, get the value corresponding to a specified key, or delete a key. The value can be just about anything, and the client application is responsible for interpreting what is stored. Therefore, when using a key-value data store, relations between data are handled at the application level. Although such a simple data model is somewhat restrictive, accessing data only through the primary key provides for good performance and easy scalability. Examples of key-value data stores include Redis, Riak, and Berkeley \cite{sadalage2013nosql}. 
+
+In spite of their flexibility, scalability, and performance characteristics, key-value stores have major drawbacks with respect to DMIS platform. Relations between data are handled by the application, and data are accessed only through the primary key. Since the relations among data are not expressed in the data store‘s data model, integration possibilities are limited. Moreover, accessing data only through the primary key greatly restricts  querying  capabilities. In  the  context  of  DMIS, limited querying capabilities and integration possibilities present a major drawback.
+
+\textbf{Column-Family Data Stores}, similar to key-value stores, map keys to their corresponding values; however, each value consists of a name-value pair. Key-value pairs can be viewed as tuples or rows in a relational database, while name-value pairs can be discerned as column names or attributes and their corresponding values. Therefore, a high level view may make a document data store look similar to relational databases; however, in relational databases, columns are predefined, and each row contains the same fixed set of columns, whereas in the column-family data store, the columns that form a row are determined by the client application, and each row can have a different set of columns. Column-family data stores provide query capabilities. Cassandra, HBase, and Amazon SimpleDB belong to this category \cite{sadalage2013nosql}.
+
+With regards to DMIS platform, column-family data stores provide the same advantages as document data stores: querying capabilities and flexible storage. Querying capabilities are supported by name-value pairs within rows, while storage flexibility is achieved by allowing each row to have a different set of columns. Similarly to document databases, a certain level of consistency among rows is needed to support querying capabilities.
+
+\textbf{Graph Databases} originated from graph theory and use graph-like structures with nodes, edges, and properties to store data. This data model is distinct from the key-value, document, and column-family data models and is designed for efficient management of heavily linked data. Applications based on data with many relationships are well suited for graph databases because the cost of intensive operations like recursive joins can be replaced by efficient graph traversals \cite{hecht2011nosql}. Neo4J and Allergo Graph are example stores from this category \cite{sadalage2013nosql}.
+
+In context of DMIS platform, graph databases can be used to store locations of the events, as well as the disaster-related data for that location.
+
+n addition to differences in their data models, data store implementations differ greatly in other aspects, such as scalability, fault tolerance, consistency, and concurrency control. These characteristics, in addition to the data model, are influential factors in determining the most suitable data store for the task at hand. Disaster-CDM offers a choice of storage solutions according to the characteristics of the data to be stored. Specifically, the data store category is chosen according to the data to be stored, and a specific data store implementation is then selected by matching the desired storage attributes with the characteristics of various data store implementations. Because one of the main characteristics of NoSQL data stores is their ability to scale horizontally and effectively by adding more servers to the resource pool, scaling aspects are discussed further here. With regard to what is being scaled, three scaling dimensions can be distinguished: scaling read requests, scaling write requests, and scaling data storage. The partitioning, replication, consistency, and concurrency control strategies used by NoSQL data stores have significant impact on their scalability. For example, partitioning determines the distribution of data among multiple servers and is therefore a means of achieving all three scaling dimensions.
+
+Another important factor in scaling read and write requests is replication: storing the same data on multiple servers so that read and write operations can be distributed over them. Replication also has an important role in providing fault tolerance because data availability can withstand the failure of one or more servers. Furthermore, the choice of replication model is also strongly related to the consistency level provided by the data store. For example, the master-slave asynchronous replication model itself cannot provide consistent read requests from slaves.
+
+\section{Machine Learning}
+
+Machine learning can be accomplished in a supervised or an unsupervised way. In supervised learning, the system receives a dataset with different example parameter values and decisions/classification, from which it infers a mathematical function,which automatically maps an input signal to an output signal. So, it figures out what it is supposed to do.
+
+Unsupervised learning, on the other hand, means that the system acts and ob-serves the consequences of its actions, without referring to any predefined type-cases other than those previously observed. This is pure 'learning by doing' or trial-and-error. Compared to supervised learning, unsupervised methods perform poorly in the beginning, when they are not tuned, but as they tune themselves,performance increases. It can be argued that using unsupervised learning, a classifying system should be able to set up hypotheses that no human can figure out,due to their complexity. If unsupervised methods were used for this project, the machine learning system would have to find out the learner stage hypothesis all on its own, which would probably require much more training data than is available.One would also run the risk of obtaining a hypothesis too complex or specific to aid researchers.
+
+To evaluate classifier performance given by a machine learning scheme, either a special testing set or a cross validation technique may be employed. A test set contains pre-classified examples different to those in the training set, and is used only for evaluation, not for training. If data are scarce, it is sensible to use cross validation in order not to waste any data, which could be useful to enhance classifier performance; all data are used both for training the classifier and for testing its performance.
+
+More examples does not necessarily mean better classifier performance. Even though the classifier becomes better on the training set it could actually perform worse on the test data. This is due to the over-fitting of the classifier transfer function, so that it fits too tightly to the training data and the border between classes is jagged rather than smooth, unlike how it usually should be.
+
+In DMIS platform machine learning can help in filtering and categorizing the data using context-based filtering models.
+
+\section{Summary}
+
+This chapter introduces the high level concepts related to the Disaster Management Information System and how each aspect of the concepts explained can help to achieve such a system.
+
+Big data is relevant here as the disaster related data being gathered is vast as well as varies in type. Here the 3 V's of Big Data is explained with regards to disaster related data. 
+
+Next, cloud computing is introduced to create a disaster resilient platform since the solution proposed in this work is cloud-based, the main characteristics, goals and challenges of cloud computing have been discussed. The choice of cloud environment for the storage of disaster-related data has been primarily motivated by its scalability and availability attributes. 
+
+Also, since the Disaster Management Information System platform uses a storage model that incorporates NoSQL solutions, NoSQL data stores were introduced and their characteristics described. The motivating factors for choosing NoSQL data stores in the proposed approach included data model flexibility, horizontal scalability and high availability. Furthermore, the four NoSQL data models were described with an emphasis on the characteristics relevant to the disaster-related information being stored.
+
+Additionally, Machine learning context were discussed due to the need o f the system to process accurate information. This can only be achieve by models that can filter the disaster-related data based on the context of the information being processed. The system proposes to use a cognitive based filtering classifier to achieve this goal.
+
+%https://www.upwork.com/hiring/data/what-is-content-based-filtering/
+
+%https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering_context.htm
+
+%http://recommender-systems.org/content-based-filtering/

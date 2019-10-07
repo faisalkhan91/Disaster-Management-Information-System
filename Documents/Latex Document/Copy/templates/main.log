@@ -1,0 +1,594 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.3.25)  23 AUG 2018 02:17
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
+(mitthesis.cls
+Document Class: mitthesis 1999/10/20
+\vithesis=\count79
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Thesis document copyright MIT unless otherwise (manually) specified
+\@titlesupervisor=\box26
+\@abstractsupervisor=\box27
+\c@savepage=\count89
+) (lgrind.sty
+Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
+\lc@unt=\count90
+\ln@xt=\count91
+\LGnuminterval=\count92
+\LGindent=\skip43
+\LGsloppy=\skip44
+\procbox=\box28
+\ls@far=\box29
+\tb@x=\box30
+\TBw@d=\dimen103
+\@ts=\dimen104
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)<<t1.cmap>>)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen107
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count96
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen108
+\Fld@menulength=\count97
+\Field@Width=\dimen109
+\Fld@charsize=\dimen110
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
+(main.aux (cover.aux) (contents.aux) (chap1.aux) (chap2.aux
+
+LaTeX Warning: Label `ch1:opts' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+) (chap3.aux) (appa.aux) (appb.aux) (biblio.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen111
+\scratchbox=\box31
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen112
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks16
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count109
+)
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
+
+(main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+\openout2 = `cover.aux'.
+
+ (cover.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+<<oms.cmap>> [1
+
+
+
+{C:/Users/faisa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+] (abstract.tex)
+[3
+
+] [4
+
+]) [5]
+\openout2 = `contents.aux'.
+
+ (contents.tex [6
+
+
+
+] (main.toc<<ot1.cmap>><<oml.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+[7])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [8] (main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [9
+
+] [10
+
+] (main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+) [11]
+\openout2 = `chap1.aux'.
+
+ (chap1.tex [12
+
+
+
+]
+Chapter 1.
+
+LaTeX Warning: Citation `patterson:risc' on page 13 undefined on input line 32.
+
+
+
+LaTeX Warning: Citation `rad83' on page 13 undefined on input line 32.
+
+
+LaTeX Warning: Citation `ellis:bulldog' on page 13 undefined on input line 40.
+
+
+LaTeX Warning: Citation `pet87' on page 13 undefined on input line 40.
+
+
+LaTeX Warning: Citation `coutant:precision-compilers' on page 13 undefined on i
+nput line 40.
+
+
+LaTeX Warning: Citation `gib86' on page 13 undefined on input line 44.
+
+[13]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 76.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 76.
+
+
+LaTeX Warning: Reference `exponent-format' on page 14 undefined on input line 7
+6.
+
+
+LaTeX Warning: Reference `mantissa-format' on page 14 undefined on input line 7
+6.
+
+
+LaTeX Warning: Reference `unnorm-math' on page 14 undefined on input line 77.
+
+[14]
+
+LaTeX Warning: Citation `thornton:cdc6600' on page 15 undefined on input line 9
+2.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 92.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [15]
+
+LaTeX Warning: Reference `opt:be' on page 16 undefined on input line 131.
+
+
+LaTeX Warning: Reference `range-tracking' on page 16 undefined on input line 16
+0.
+
+[16]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [17]
+
+LaTeX Warning: Citation `magenheimer:precision' on page 18 undefined on input l
+ine 204.
+
+
+LaTeX Warning: Citation `byte:i860' on page 18 undefined on input line 214.
+
+
+LaTeX Warning: Citation `ellis:bulldog' on page 18 undefined on input line 227.
+
+
+
+LaTeX Warning: Citation `colwell:vliw' on page 18 undefined on input line 227.
+
+[18]
+
+LaTeX Warning: Citation `gib86' on page 19 undefined on input line 248.
+
+) [19]
+\openout2 = `chap2.aux'.
+
+ (chap2.tex [20
+
+
+
+]
+Chapter 2.
+<DesignDiagram.png, id=328, 528.7755pt x 190.91325pt>
+File: DesignDiagram.png Graphic file (type png)
+<use DesignDiagram.png>
+Package pdftex.def Info: DesignDiagram.png  used on input line 11.
+(pdftex.def)             Requested size: 426.79134pt x 154.09705pt.
+[21 <./DesignDiagram.png>] [22] [23]
+Overfull \hbox (63.74966pt too wide) in paragraph at lines 82--84
+[]\T1/cmr/m/n/12 Tweepy sup-ports OAuth au-then-ti-ca-tion. Au-then-ti-ca-tion 
+is han-dled by the tweepy.AuthHandler
+ []
+
+<code1.png, id=349, 460.72125pt x 94.55325pt>
+File: code1.png Graphic file (type png)
+<use code1.png>
+Package pdftex.def Info: code1.png  used on input line 106.
+(pdftex.def)             Requested size: 426.79134pt x 87.58878pt.
+[24]
+<code2.png, id=354, 458.9145pt x 157.7895pt>
+File: code2.png Graphic file (type png)
+<use code2.png>
+Package pdftex.def Info: code2.png  used on input line 116.
+(pdftex.def)             Requested size: 426.79134pt x 146.74512pt.
+<code3.png, id=355, 457.10776pt x 416.15475pt>
+File: code3.png Graphic file (type png)
+<use code3.png>
+Package pdftex.def Info: code3.png  used on input line 126.
+(pdftex.def)             Requested size: 426.79134pt x 388.56297pt.
+ [25 <./code1.png> <./code2.png>]
+<code5.png, id=363, 457.10776pt x 71.66776pt>
+File: code5.png Graphic file (type png)
+<use code5.png>
+Package pdftex.def Info: code5.png  used on input line 149.
+(pdftex.def)             Requested size: 426.79134pt x 66.91605pt.
+ [26 <./code3.png> <./code5.png>]
+<code6.png, id=370, 456.5055pt x 79.497pt>
+File: code6.png Graphic file (type png)
+<use code6.png>
+Package pdftex.def Info: code6.png  used on input line 163.
+(pdftex.def)             Requested size: 426.79134pt x 74.32202pt.
+ [27 <./code6.png>]
+<code7.png, id=376, 456.5055pt x 311.9655pt>
+File: code7.png Graphic file (type png)
+<use code7.png>
+Package pdftex.def Info: code7.png  used on input line 187.
+(pdftex.def)             Requested size: 426.79134pt x 291.6577pt.
+ [28]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Overfull \hbox (2240.75105pt too wide) in paragraph at lines 197--199
+[]$\OML/cmm/m/it/12 MongoClientcreatestheMongoClientinstancewhichinterfaceswith
+thedatabase:Theclient\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 twitter[]b\OT1/cmr/m/n/1
+2 ]\OML/cmm/m/it/12 calldesignatesthedatabasethatisgoingtobeused; andthedb\OT1/
+cmr/m/n/12 [\OML/cmm/m/it/12 twitter[]ollection\OT1/cmr/m/n/12 ]\OML/cmm/m/it/1
+2 callselectsthecollectionwherethedocumentswillbestored:Thejson:loads\OT1/cmr/m
+/n/12 ()\OML/cmm/m/it/12 callconvertsthestringreturnedfromtheTwitterAPIintoajso
+nobjectinPython:Finally; thecollection:insert\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12
+ callinsertsthejsonobjectintotheMongoDBdatabase:Fromthisrathersimplechangetothe
+PythonstreamlistenerallthetweetscanbesavedintoaMongoDBdatabase:$ 
+ []
+
+) [29 <./code7.png>]
+\openout2 = `chap3.aux'.
+
+ (chap3.tex)
+\openout2 = `appa.aux'.
+
+ (appa.tex [30
+
+
+
+
+
+]
+Appendix A.
+[31])
+\openout2 = `appb.aux'.
+
+ (appb.tex [32
+
+
+
+
+]
+Appendix B.
+[33] [34])
+\openout2 = `biblio.aux'.
+
+ (biblio.tex (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 5.
+
+)
+Overfull \hbox (197.18814pt too wide) in paragraph at lines 10--13
+[]$\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==github:com=tweep
+y=tweepy=blob=v\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 6\OML/cmm/m/i
+t/12 :\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 =docs=auth[]utorial:rst$ \T1/cmr/m/n/12
+ https://lifehacker.com/5918086/understanding-
+ []
+
+) [35
+
+
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (main.aux (cover.aux) (contents.aux) (chap1.aux) (chap2.aux) (chap3.aux) (appa
+.aux) (appb.aux) (biblio.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F1CE8242F6B315FEAA639CD700098129;2348.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+ ) 
+Here is how much of TeX's memory you used:
+ 5805 strings out of 493308
+ 87954 string characters out of 3138768
+ 164959 words of memory out of 3000000
+ 9082 multiletter control sequences out of 15000+200000
+ 17957 words of font info for 40 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 28i,8n,30p,825b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/cm-super/sfbx2488.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/cm-super/sfrm0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
+per/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1
+000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (35 pages, 500942 bytes).
+PDF statistics:
+ 504 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+

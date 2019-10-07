@@ -1,0 +1,50 @@
+\chapter{Future Work}
+
+This study has primarily addressed a solution to data acquisition from various sources, and defined a system that can make parsing and storing that information in real-time relatively simpler. This approach has established the foundation of a system that can be only be improved by introducing innovative elements for it to process and output data faster and accurately. Future directions related to disaster management system include:
+
+\begin{description}
+	\item[$\bullet$ \textbf{Web Application to access the disaster information:}]
+	\hfill\break
+	Providing a web application to access the information the Internet provides a way to have universal access to disaster-related data. Thick or thin clients (e.g. mobile, laptops, workstations and servers) can have access to information for decision making or further analysis.
+	
+	\item[$\bullet$ \textbf{Native applications for various platforms:}]
+	\hfill\break
+	Native applications on various platforms can be built, which can use push notification system to deliver updated information to smart connected devices. For example, an Android application can periodically request information to keep the user updated with relevant information.
+
+	\item[$\bullet$ \textbf{Context filtering:}]
+	\hfill\break
+	The data collected through social media sites can have different context. A context filtering system using machine learning techniques can improve the result and provide relevant disaster related data. For example, taking flooding as a keyword to filter and store data, the system can have information such as "flooding in my bathroom" or "flash flooding in the street" can mean very differently and the system is not capable of recognizing these differences, thus a context filtering system can filter these results to provide accurate information. This also saves a lot of overhead during processing and storing information.
+
+	\item[$\bullet$ \textbf{NoSQL data store comparison:}]
+	\hfill\break
+	In this study, the document store model specifically MongoDB, was chosen for storage of streaming-style data using the streaming API. Also, Hadoop was used for processing as it provides distributed processing which is suitable for parallelization. However, a detailed comparison of different data store implementations would assist in choosing the most suitable NoSQL implementation for the task at hand.
+
+	\item[$\bullet$ \textbf{Required storage space:}]
+	\hfill\break
+	This work did not analyze the storage space requirements for the proposed approach. DMIS stores all the streaming data as well the data produced after processing the information. Additionally storing data also creates indexes, and must be considered which calculating space estimates.
+
+	\item[$\bullet$ \textbf{Data analytics services:}]
+	\hfill\break
+	The processed information can be pre-analyzed using statistical methods to form prediction models that can be used to study the information, to gather insights into disaster-related events.
+	
+	\item[$\bullet$ \textbf{Information conflict:}]
+	\hfill\break
+	Since data is collected from various sources, the data gathered can have collisions, i.e., the data collected from independent sources can contradict each other, giving a conflicted information. A way to resolve the conflicts can be devised. 
+	
+	\item[$\bullet$ \textbf{Data verification:}]
+	\hfill\break
+	Since data is collected from public sources, a system can be created to verify the quality as well as the accuracy of the information. This can help to avoid the case of "false positives" or giving out wrong information as it is a life or death situation during a crisis.
+
+	\item[$\bullet$ \textbf{Avoiding Redundancy:}]
+	\hfill\break
+	There can be similar data from different sources, that can be purged using a filtering model, from the system so as to reduce redundancy in the data store as this adds complexity and unnecessary overhead while processing and storing information.
+\end{description}
+
+This study has presented the main idea of Disaster management as an information service, while thoroughly working out the details and challenges faced by the platforms utilized, future work that can focus on this includes:
+
+\begin{description}
+	\item[$\bullet$ \textbf{Privacy and security:}]
+	\hfill\break
+	Providing adequate security and privacy for such a framework is challenging for a number of reasons, including cloud storage on third-party premises and in a shared multi-tenant environment, diversity of the storage models involved, and the large number of collaboration participants
+\end{description}
+

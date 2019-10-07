@@ -1,0 +1,111 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{10}
+
+\bibitem{barr2011building}
+Jeff Barr, Attila Narin, and Jinesh Varia.
+\newblock Building fault-tolerant applications on aws.
+\newblock {\em Amazon Web Services}, pages 1--15, 2011.
+
+\bibitem{brewer2012cap}
+Eric Brewer.
+\newblock Cap twelve years later: How the" rules" have changed.
+\newblock {\em Computer}, 45(2):23--29, 2012.
+
+\bibitem{cattell2011scalable}
+Rick Cattell.
+\newblock Scalable sql and nosql data stores.
+\newblock {\em Acm Sigmod Record}, 39(4):12--27, 2011.
+
+\bibitem{coppola2006introduction}
+Damon~P Coppola.
+\newblock {\em Introduction to international disaster management}.
+\newblock Elsevier, 2006.
+
+\bibitem{cure2011data}
+Olivier Cur{\'e}, Robin Hecht, Chan Le~Duc, and Myriam Lamolle.
+\newblock Data integration over nosql stores using access path based mappings.
+\newblock In {\em International Conference on Database and Expert Systems
+  Applications}, pages 481--495. Springer, 2011.
+
+\bibitem{de2011use}
+Kelli de~Faria~Cordeiro, Tiago Marino, Maria Luiza~M Campos, and Marcos~RS
+  Borges.
+\newblock Use of linked data in the design of information infrastructure for
+  collaborative emergency management system.
+\newblock In {\em Computer Supported Cooperative Work in Design (CSCWD), 2011
+  15th International Conference on}, pages 764--771. IEEE, 2011.
+
+\bibitem{collectingtwitter}
+Sean Dolinar.
+\newblock Collecting twitter data: Getting started.
+\newblock
+  \url{https://stats.seandolinar.com/collecting-twitter-data-getting-started/}.
+
+\bibitem{erl2013cloud}
+Thomas Erl, Ricardo Puttini, and Zaigham Mahmood.
+\newblock {\em Cloud computing: concepts, technology \& architecture}.
+\newblock Pearson Education, 2013.
+
+\bibitem{gordonunderstanding}
+Whitson Gordon.
+\newblock Understanding oauth: What happens when you log into a site with
+  google, twitter, or facebook.
+\newblock
+  \url{https://lifehacker.com/5918086/understanding-oauth-what-happens-when-you-log-into-a-site-with-google-twitter-or-facebook}.
+
+\bibitem{han2011novel}
+Jing Han, Meina Song, and Junde Song.
+\newblock A novel solution of distributed memory nosql database for cloud
+  computing.
+\newblock In {\em Computer and Information Science (ICIS), 2011 IEEE/ACIS 10th
+  International Conference on}, pages 351--355. IEEE, 2011.
+
+\bibitem{hecht2011nosql}
+Robin Hecht and Stefan Jablonski.
+\newblock Nosql evaluation: A use case oriented survey.
+\newblock In {\em Cloud and Service Computing (CSC), 2011 International
+  Conference on}, pages 336--341. IEEE, 2011.
+
+\bibitem{hristidis2010survey}
+Vagelis Hristidis, Shu-Ching Chen, Tao Li, Steven Luis, and Yi~Deng.
+\newblock Survey of data management and analysis in disaster situations.
+\newblock {\em Journal of Systems and Software}, 83(10):1701--1714, 2010.
+
+\bibitem{kossmann2010data}
+Donald Kossmann and Tim Kraska.
+\newblock Data management in the cloud: promises, state-of-the-art, and open
+  questions.
+\newblock {\em Datenbank-Spektrum}, 10(3):121--129, 2010.
+
+\bibitem{tweepypython}
+Ahmet Novalić.
+\newblock Introduction to tweepy, twitter for python.
+\newblock
+  \url{https://www.pythoncentral.io/introduction-to-tweepy-twitter-for-python/}.
+
+\bibitem{tweepyauth}
+Joshua Roesslein.
+\newblock Authentication tutorial.
+\newblock
+  \url{https://github.com/tweepy/tweepy/blob/v3.6.0/docs/auth_tutorial.rst}.
+
+\bibitem{sadalage2013nosql}
+Pramod~J Sadalage and Martin Fowler.
+\newblock {\em NoSQL distilled: a brief guide to the emerging world of polyglot
+  persistence}.
+\newblock Pearson Education, 2013.
+
+\bibitem{sakr2011survey}
+Sherif Sakr, Anna Liu, Daniel~M Batista, and Mohammad Alomari.
+\newblock A survey of large scale data management approaches in cloud
+  environments.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 13(3):311--336, 2011.
+
+\bibitem{shvachko2010hadoop}
+Konstantin Shvachko, Hairong Kuang, Sanjay Radia, and Robert Chansler.
+\newblock The hadoop distributed file system.
+\newblock In {\em Mass storage systems and technologies (MSST), 2010 IEEE 26th
+  symposium on}, pages 1--10. Ieee, 2010.
+
+\end{thebibliography}

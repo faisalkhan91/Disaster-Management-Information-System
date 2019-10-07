@@ -1,0 +1,71 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+\chapter{Conclusion}
+
+Recently, we have been witnessing an increase in the the number and severity of extreme weather events and natural disasters around the globe. As a result, disaster impacts on human lives and property have risen, escalating the importance of minimizing disaster impacts and making an effective response imperative in today's society.
+
+The aim of disaster management is to mitigate disaster impact, and a vital element of achieving this goal is to effectively make decisions through all four disaster phases: mitigation, preparedness, response, and recovery. Decisions made in response phase is critical as they can be a make or break situation in many cases. Successful and effective disaster decision-making requires information gathering, sharing, and integration by means of collaboration on a global scale and across governments, industries and communities. However, it is problematic to search for information while experiencing a critical moment, as time is a constraint. A multitude of disaster-related data is available, including response plans, records of previous incidents, simulation data, social media data and websites.
+
+Currently, very few disaster management solutions exist, and many don't integrate these available resources in real-time to provide effective solutions during a disaster response phase. Also, the introduction of new technologies in hardware and software have potentially created opportunities to develop new solutions in disaster management domain. Especially, recent advances in cloud computing, Big Data, NoSQL, and Machine learning techniques have enabled implementation of these solutions.
+
+Consequently, this research proposed a Disaster Management Information System (DMIS), implemented on Infrastructure as a Service (IaaS) framework for disaster cloud data management in real-time. The ultimate goal of DMIS is to facilitate improved and informed disaster decision-making in a timely manner and to reduce the impact of a impending catastrophe on human lives and property. DMIS aides in information gathering and sharing through knowledge acquisition and delivery; stores and processes huge amounts of disaster-related data from various sources, in real-time, by taking advantage of cloud computing, NoSQL data stores and machine learning techniques.
+
+The design presented in this research describes a system that can store and process information, from diverse sources, on a streaming basis in real-time.
+
+Section 4.1 discusses the contributions of this research.
+
+\section{Contributions}
+
+The contributions of this thesis can be summarized as follows:
+
+\begin{flushleft}
+	\textbf{Disaster Management Information System}
+\end{flushleft}
+
+This research has proposed a Disaster Management Information System, a data collection and delivery platform. DMIS provides a flexible and a customizable disaster data management and processing solution, hosted on Infrastructure as a Service framework, that can be scaled and altered with ease according to the changes in requirements. DMIS achieves the following objectives:
+
+\begin{description}
+	\item[$\bullet$]
+	Information is gathered from Twitter, demonstrating social media sources as a trove of information that is filtered through for disaster management information delivery. Knowledge is acquired through diverse collaboration partners and heterogeneous data sources and then stored. Data is processed to output relevant data which can be integrated to various platform sources, delivering disaster-related data as a service.
+	
+	\item[$\bullet$]
+	Cloud computing and NoSQL data stores are used to effectively store and process large amounts of disaster-related data which is sourced from diverse sources. This provides significant advantage over traditional processing and storing techniques. Utilizing cloud computing and NoSQL data stores enables the platform to start small and scale horizontally as on a need basis by adding heterogeneous nodes. Also, within the cloud environment, databases, relational or NoSQL, are replicated, often across large geographical distances. This leads to the system having high availability and fault tolerant even in the presence of failures, which is fundamental in an operational disaster management system during a crisis. Moreover, NoSQL data stores offer a flexible data model, and therefore enables storage of diverse disaster-related data from various sources. DMIS provides choices of different solutions that suits a variety of data structures and access patterns.
+	
+	\item[$\bullet$]
+	Search, data delivery and integration is provided on the output by batch processing the data in real-time. The data stored in the data stores is processed or provided raw depending on the requirement of the application. These platform choices lead the system in being flexible, and support a wide arrays of applications that can potentially utilize the information for further improvements to the system.	This approach focuses on real-time information collection and delivery, as well as explores the various techniques to build a resilient platform that provides accurate information. 
+\end{description}
+
+Already stated above, DMIS is a flexible and scalable disaster management platform that can accommodate a variety fo data sources. Thus, this thesis structured a process to introduce new data sources into the system. The process can be described as:
+
+\begin{description}
+	\item[$\bullet$]
+	adding new processing services for dealing with the new data source;
+	
+	\item[$\bullet$]
+	defining data processing rules for the new data source;
+	
+	\item[$\bullet$]
+	determining appropriate data storage, including choosing the type of data store and designing a data model.	 
+\end{description}
+
+Introduction of a new source will consider all the three properties stated above, but adding a new source does not necessarily mean that it introduce new cloud components. To rephrase, depending on existing processing capabilities, a new data source may not use resources to warrant scaling to include additional processing node.
+
+DMIS approach used twitter's streaming API to stream data continuously as this helps to collect data in real-time, apart from the streaming information,  static file-styles data can be read in to the data store, showing the strength of a NoSQL data stores. The streaming information is collected and filtered by using keywords in the GET request provided to the streaming API and also simultaneously stored in a NoSQL database. Sourcing data from various sources can create a structural disparity in data consistency; however, the data can be filtered and sorted using machine learning techniques.
+
+Disaster-related data storage is performed in two stages:
+
+\begin{description}
+	\item[$\bullet$]
+	The data is streamed in real time or read from various sources and stored in a document data store.
+	
+	\item[$\bullet$]
+	The data from the document data store is read and sent for processing and storage to column based data store.	 
+\end{description}
+
+The system is designed to be modular and scalable so the platform can be fitted with competing, but consisting of similar model, NoSQL solutions without affecting the data storage and output. Of course, all the previous data has to be migrated in case of using a new data store.
+
+Cleaning the data is equally important as the output is pure based on the quality of the data. It is observed that ML techniques, such as context-based filtering, can benefit the system by passing relevant information while processing. Also, by integrating more artificial intelligence (AI) into the system will make the system more capable of making intelligent choices in various phases of data storage, processing and presentation. This can be a part of future work on improving the platform to produce better results.

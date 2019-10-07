@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Inspiration}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Leveraging existing data}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Scope of data collection}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Glimpse into the system}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Thesis Structure}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Big Data}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Cloud Computing}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{NoSQL Data Stores}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Machine Learning}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Summary}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Design and Implementation}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Twitter}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Twitter API}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Authenticate with OAuth}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Make API call:}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Receive JSON file back:}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.5}{Interpret JSON file:}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{Python:}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Tweepy:}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.1}{Using tweepy:}{section.3.3}% 22
+\BOOKMARK [1][-]{section.3.4}{Diving into the code:}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.4.1}{Importing the modules:}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.2}{Setting the Variables:}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.3}{Using and Modifying the Tweepy Classes:}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.4}{Calling the Stream Listener:}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.5}{Twitter Streaming Output:}{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{MongoDB}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.5.1}{What is MongoDB?}{section.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.5.2}{Why store in MongoDB?}{section.3.5}% 31
+\BOOKMARK [1][-]{section.3.6}{Storing Tweets in MongoDB}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.7}{Recalling Tweets from MongoDB}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.8}{Context based filtering}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.9}{Hadoop}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.10}{Amazon Web Services}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.11}{Summary}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Contributions}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{Future Work}{}% 40
+\BOOKMARK [0][-]{appendix.A}{Abbreviations}{}% 41

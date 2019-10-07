@@ -1,0 +1,563 @@
+@preamble{ "\newcommand{\noopsort}[1]{} "
+	# "\newcommand{\printfirst}[2]{#1} "
+	# "\newcommand{\singleletter}[1]{#1} "
+	# "\newcommand{\switchargs}[2]{#2#1} " }
+
+@ARTICLE{article-minimal,
+   author = {L[eslie] A. Aamport},
+   title = {The Gnats and Gnus Document Preparation System},
+   journal = {\mbox{G-Animal's} Journal},
+   year = 1986,
+}
+
+@ARTICLE{article-full,
+   author = {L[eslie] A. Aamport},
+   title = {The Gnats and Gnus Document Preparation System},
+   journal = {\mbox{G-Animal's} Journal},
+   year = 1986,
+   volume = 41,
+   number = 7,
+   pages = "73+",
+   month = jul,
+   note = "This is a full ARTICLE entry",
+}
+
+The KEY field is here to override the KEY field in the journal being
+cross referenced (so is the NOTE field, in addition to its imparting
+information).
+
+@ARTICLE{article-crossref,
+   crossref = {WHOLE-JOURNAL},
+   key = "",
+   author = {L[eslie] A. Aamport},
+   title = {The Gnats and Gnus Document Preparation System},
+   pages = "73+",
+   note = "This is a cross-referencing ARTICLE entry",
+}
+
+@ARTICLE{whole-journal,
+   key = "GAJ",
+   journal = {\mbox{G-Animal's} Journal},
+   year = 1986,
+   volume = 41,
+   number = 7,
+   month = jul,
+   note = {The entire issue is devoted to gnats and gnus
+		(this entry is a cross-referenced ARTICLE (journal))},
+}
+
+@INBOOK{inbook-minimal,
+   author = "Donald E. Knuth",
+   title = "Fundamental Algorithms",
+   publisher = "Addison-Wesley",
+   year = "{\noopsort{1973b}}1973",
+   chapter = "1.2",
+}
+
+@INBOOK{inbook-full,
+   author = "Donald E. Knuth",
+   title = "Fundamental Algorithms",
+   volume = 1,
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, Massachusetts",
+   edition = "Second",
+   month = "10~" # jan,
+   year = "{\noopsort{1973b}}1973",
+   type = "Section",
+   chapter = "1.2",
+   pages = "10--119",
+   note = "This is a full INBOOK entry",
+}
+
+@INBOOK{inbook-crossref,
+   crossref = "whole-set",
+   title = "Fundamental Algorithms",
+   volume = 1,
+   series = "The Art of Computer Programming",
+   edition = "Second",
+   year = "{\noopsort{1973b}}1973",
+   type = "Section",
+   chapter = "1.2",
+   note = "This is a cross-referencing INBOOK entry",
+}
+
+@BOOK{book-minimal,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   publisher = "Addison-Wesley",
+   year = "{\noopsort{1973c}}1981",
+}
+
+@BOOK{book-full,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   volume = 2,
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, Massachusetts",
+   edition = "Second",
+   month = "10~" # jan,
+   year = "{\noopsort{1973c}}1981",
+   note = "This is a full BOOK entry",
+}
+
+@BOOK{book-crossref,
+   crossref = "whole-set",
+   title = "Seminumerical Algorithms",
+   volume = 2,
+   series = "The Art of Computer Programming",
+   edition = "Second",
+   year = "{\noopsort{1973c}}1981",
+   note = "This is a cross-referencing BOOK entry",
+}
+
+@BOOK{whole-set,
+   author = "Donald E. Knuth",
+   publisher = "Addison-Wesley",
+   title = "The Art of Computer Programming",
+   series = "Four volumes",
+   year = "{\noopsort{1973a}}{\switchargs{--90}{1968}}",
+   note = "Seven volumes planned (this is a cross-referenced set of BOOKs)",
+}
+
+@BOOKLET{booklet-minimal,
+   key = "Kn{\printfirst{v}{1987}}",
+   title = "The Programming of Computer Art",
+}
+
+@BOOKLET{booklet-full,
+   author = "Jill C. Knvth",
+   title = "The Programming of Computer Art",
+   howpublished = "Vernier Art Center",
+   address = "Stanford, California",
+   month = feb,
+   year = 1988,
+   note = "This is a full BOOKLET entry",
+}
+
+@INCOLLECTION{incollection-minimal,
+   author = "Daniel D. Lincoll",
+   title = "Semigroups of Recurrences",
+   booktitle = "High Speed Computer and Algorithm Organization",
+   publisher = "Academic Press",
+   year = 1977,
+}
+
+@INCOLLECTION{incollection-full,
+   author = "Daniel D. Lincoll",
+   title = "Semigroups of Recurrences",
+   editor = "David J. Lipcoll and D. H. Lawrie and A. H. Sameh",
+   booktitle = "High Speed Computer and Algorithm Organization",
+   number = 23,
+   series = "Fast Computers",
+   chapter = 3,
+   type = "Part",
+   pages = "179--183",
+   publisher = "Academic Press",
+   address = "New York",
+   edition = "Third",
+   month = sep,
+   year = 1977,
+   note = "This is a full INCOLLECTION entry",
+}
+
+@INCOLLECTION{incollection-crossref,
+   crossref = "whole-collection",
+   author = "Daniel D. Lincoll",
+   title = "Semigroups of Recurrences",
+   pages = "179--183",
+   note = "This is a cross-referencing INCOLLECTION entry",
+}
+
+@BOOK{whole-collection,
+   editor = "David J. Lipcoll and D. H. Lawrie and A. H. Sameh",
+   title = "High Speed Computer and Algorithm Organization",
+   booktitle = "High Speed Computer and Algorithm Organization",
+   number = 23,
+   series = "Fast Computers",
+   publisher = "Academic Press",
+   address = "New York",
+   edition = "Third",
+   month = sep,
+   year = 1977,
+   note = "This is a cross-referenced BOOK (collection) entry",
+}
+
+@MANUAL{manual-minimal,
+   key = "Manmaker",
+   title = "The Definitive Computer Manual",
+}
+
+@MANUAL{manual-full,
+   author = "Larry Manmaker",
+   title = "The Definitive Computer Manual",
+   organization = "Chips-R-Us",
+   address = "Silicon Valley",
+   edition = "Silver",
+   month = apr # "-" # may,
+   year = 1986,
+   note = "This is a full MANUAL entry",
+}
+
+@MASTERSTHESIS{mastersthesis-minimal,
+   author = "{\'{E}}douard Masterly",
+   title = "Mastering Thesis Writing",
+   school = "Stanford University",
+   year = 1988,
+}
+
+@MASTERSTHESIS{mastersthesis-full,
+   author = "{\'{E}}douard Masterly",
+   title = "Mastering Thesis Writing",
+   school = "Stanford University",
+   type = "Master's project",
+   address = "English Department",
+   month = jun # "-" # aug,
+   year = 1988,
+   note = "This is a full MASTERSTHESIS entry",
+}
+
+@MISC{misc-minimal,
+   key = "Missilany",
+   note = "This is a minimal MISC entry",
+}
+
+@MISC{misc-full,
+   author = "Joe-Bob Missilany",
+   title = "Handing out random pamphlets in airports",
+   howpublished = "Handed out at O'Hare",
+   month = oct,
+   year = 1984,
+   note = "This is a full MISC entry",
+}
+
+@STRING{STOC-key = "OX{\singleletter{stoc}}"}
+
+@STRING{ACM = "The OX Association for Computing Machinery"}
+
+@STRING{STOC = " Symposium on the Theory of Computing"}
+
+@INPROCEEDINGS{inproceedings-minimal,
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis",
+   title = "On Notions of Information Transfer in {VLSI} Circuits",
+   booktitle = "Proc. Fifteenth Annual ACM" # STOC,
+   year = 1983,
+}
+
+@INPROCEEDINGS{inproceedings-full,
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis",
+   title = "On Notions of Information Transfer in {VLSI} Circuits",
+   editor = "Wizard V. Oz and Mihalis Yannakakis",
+   booktitle = "Proc. Fifteenth Annual ACM" # STOC,
+   number = 17,
+   series = "All ACM Conferences",
+   pages = "133--139",
+   month = mar,
+   year = 1983,
+   address = "Boston",
+   organization = ACM,
+   publisher = "Academic Press",
+   note = "This is a full INPROCEDINGS entry",
+}
+
+@INPROCEEDINGS{inproceedings-crossref,
+   crossref = "whole-proceedings",
+   author = "Alfred V. Oaho and Jeffrey D. Ullman and Mihalis Yannakakis",
+   title = "On Notions of Information Transfer in {VLSI} Circuits",
+   organization = "",
+   pages = "133--139",
+   note = "This is a cross-referencing INPROCEEDINGS entry",
+}
+
+@PROCEEDINGS{proceedings-minimal,
+   key = STOC-key,
+   title = "Proc. Fifteenth Annual" # STOC,
+   year = 1983,
+}
+
+@PROCEEDINGS{proceedings-full,
+   editor = "Wizard V. Oz and Mihalis Yannakakis",
+   title = "Proc. Fifteenth Annual" # STOC,
+   number = 17,
+   series = "All ACM Conferences",
+   month = mar,
+   year = 1983,
+   address = "Boston",
+   organization = ACM,
+   publisher = "Academic Press",
+   note = "This is a full PROCEEDINGS entry",
+}
+
+@PROCEEDINGS{whole-proceedings,
+   key = STOC-key,
+   organization = ACM,
+   title = "Proc. Fifteenth Annual" # STOC,
+   address = "Boston",
+   year = 1983,
+   booktitle = "Proc. Fifteenth Annual ACM" # STOC,
+   note = "This is a cross-referenced PROCEEDINGS",
+}
+
+@PHDTHESIS{phdthesis-minimal,
+   author = "F. Phidias Phony-Baloney",
+   title = "Fighting Fire with Fire: Festooning {F}rench Phrases",
+   school = "Fanstord University",
+   year = 1988,
+}
+
+@PHDTHESIS{phdthesis-full,
+   author = "F. Phidias Phony-Baloney",
+   title = "Fighting Fire with Fire: Festooning {F}rench Phrases",
+   school = "Fanstord University",
+   type = "{PhD} Dissertation",
+   address = "Department of French",
+   month = jun # "-" # aug,
+   year = 1988,
+   note = "This is a full PHDTHESIS entry",
+}
+
+@TECHREPORT{techreport-minimal,
+   author = "Tom Terrific",
+   title = "An {$O(n \log n / \! \log\log n)$} Sorting Algorithm",
+   institution = "Fanstord University",
+   year = 1988,
+}
+
+@TECHREPORT{techreport-full,
+   author = "Tom T{\'{e}}rrific",
+   title = "An {$O(n \log n / \! \log\log n)$} Sorting Algorithm",
+   institution = "Fanstord University",
+   type = "Wishful Research Result",
+   number = "7",
+   address = "Computer Science Department, Fanstord, California",
+   month = oct,
+   year = 1988,
+   note = "This is a full TECHREPORT entry",
+}
+
+@UNPUBLISHED{unpublished-minimal,
+   author = "Ulrich {\"{U}}nderwood and Ned {\~N}et and Paul {\={P}}ot",
+   title = "Lower Bounds for Wishful Research Results",
+   note = "Talk at Fanstord University (this is a minimal UNPUBLISHED entry)",
+}
+
+@UNPUBLISHED{unpublished-full,
+   author = "Ulrich {\"{U}}nderwood and Ned {\~N}et and Paul {\={P}}ot",
+   title = "Lower Bounds for Wishful Research Results",
+   month = nov # ", " # dec,
+   year = 1988,
+   note = "Talk at Fanstord University (this is a full UNPUBLISHED entry)",
+}
+
+@MISC{random-note-crossref,
+   key = {Volume-2},
+   note = "Volume~2 is listed under Knuth \cite{book-full}"
+}
+
+
+@article{erl2014cloud,
+	title={Cloud Computing: Concept, Technology, and Architecture (Fourth)},
+	author={Erl, T and Mahmood, Z and Puttini, R},
+	journal={Massachusetts: Prentice Hall},
+	year={2014}
+}
+
+@article{khoshnevis2012toward,
+	title={Toward knowledge management as a service in cloud-based environments},
+	author={Khoshnevis, Sedigheh and Rabeifar, Fatemeh},
+	journal={International Journal of Mechatronics, Electrical and Computer Technology},
+	volume={2},
+	number={4},
+	pages={88--110},
+	year={2012}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+@book{erl2013cloud,
+	title={Cloud computing: concepts, technology \& architecture},
+	author={Erl, Thomas and Puttini, Ricardo and Mahmood, Zaigham},
+	year={2013},
+	publisher={Pearson Education}
+}
+
+@inproceedings{han2011novel,
+	title={A novel solution of distributed memory nosql database for cloud computing},
+	author={Han, Jing and Song, Meina and Song, Junde},
+	booktitle={Computer and Information Science (ICIS), 2011 IEEE/ACIS 10th International Conference on},
+	pages={351--355},
+	year={2011},
+	organization={IEEE}
+}
+
+@article{kossmann2010data,
+	title={Data management in the cloud: promises, state-of-the-art, and open questions},
+	author={Kossmann, Donald and Kraska, Tim},
+	journal={Datenbank-Spektrum},
+	volume={10},
+	number={3},
+	pages={121--129},
+	year={2010},
+	publisher={Springer}
+}
+
+@inproceedings{hecht2011nosql,
+	title={NoSQL evaluation: A use case oriented survey},
+	author={Hecht, Robin and Jablonski, Stefan},
+	booktitle={Cloud and Service Computing (CSC), 2011 International Conference on},
+	pages={336--341},
+	year={2011},
+	organization={IEEE}
+}
+
+@book{sadalage2013nosql,
+	title={NoSQL distilled: a brief guide to the emerging world of polyglot persistence},
+	author={Sadalage, Pramod J and Fowler, Martin},
+	year={2013},
+	publisher={Pearson Education}
+}
+
+@inproceedings{shvachko2010hadoop,
+	title={The hadoop distributed file system},
+	author={Shvachko, Konstantin and Kuang, Hairong and Radia, Sanjay and Chansler, Robert},
+	booktitle={Mass storage systems and technologies (MSST), 2010 IEEE 26th symposium on},
+	pages={1--10},
+	year={2010},
+	organization={Ieee}
+}
+
+@article{cattell2011scalable,
+	title={Scalable SQL and NoSQL data stores},
+	author={Cattell, Rick},
+	journal={Acm Sigmod Record},
+	volume={39},
+	number={4},
+	pages={12--27},
+	year={2011},
+	publisher={ACM}
+}
+
+@article{brewer2012cap,
+	title={CAP twelve years later: How the" rules" have changed},
+	author={Brewer, Eric},
+	journal={Computer},
+	volume={45},
+	number={2},
+	pages={23--29},
+	year={2012},
+	publisher={IEEE}
+}
+
+@inproceedings{cure2011data,
+	title={Data integration over nosql stores using access path based mappings},
+	author={Cur{\'e}, Olivier and Hecht, Robin and Le Duc, Chan and Lamolle, Myriam},
+	booktitle={International Conference on Database and Expert Systems Applications},
+	pages={481--495},
+	year={2011},
+	organization={Springer}
+}
+
+@article{hristidis2010survey,
+	title={Survey of data management and analysis in disaster situations},
+	author={Hristidis, Vagelis and Chen, Shu-Ching and Li, Tao and Luis, Steven and Deng, Yi},
+	journal={Journal of Systems and Software},
+	volume={83},
+	number={10},
+	pages={1701--1714},
+	year={2010},
+	publisher={Elsevier}
+}
+
+@inproceedings{de2011use,
+	title={Use of linked data in the design of information infrastructure for collaborative emergency management system},
+	author={de Faria Cordeiro, Kelli and Marino, Tiago and Campos, Maria Luiza M and Borges, Marcos RS},
+	booktitle={Computer Supported Cooperative Work in Design (CSCWD), 2011 15th International Conference on},
+	pages={764--771},
+	year={2011},
+	organization={IEEE}
+}
+
+@book{coppola2006introduction,
+	title={Introduction to international disaster management},
+	author={Coppola, Damon P},
+	year={2006},
+	publisher={Elsevier}
+}
+
+@article{sakr2011survey,
+	title={A survey of large scale data management approaches in cloud environments},
+	author={Sakr, Sherif and Liu, Anna and Batista, Daniel M and Alomari, Mohammad},
+	journal={IEEE Communications Surveys \& Tutorials},
+	volume={13},
+	number={3},
+	pages={311--336},
+	year={2011},
+	publisher={IEEE}
+}
+
+@misc{gordonunderstanding,
+	title={Understanding oauth: What happens when you log into a site with google, twitter, or facebook},
+	author={Gordon, Whitson},
+	howpublished = {\url{https://lifehacker.com/5918086/understanding-oauth-what-happens-when-you-log-into-a-site-with-google-twitter-or-facebook}},
+	urldate = {2012-06-13}
+}
+
+@misc{tweepypython,
+	title={Introduction to tweepy, Twitter for Python},
+	author={Novalić, Ahmet},
+	howpublished = {\url{https://www.pythoncentral.io/introduction-to-tweepy-twitter-for-python/}},
+	urldate = {2013-01-23}
+}
+
+@misc{tweepyauth,
+	title={Authentication Tutorial},
+	author={Roesslein, Joshua },
+	howpublished = {\url{https://github.com/tweepy/tweepy/blob/v3.6.0/docs/auth_tutorial.rst}},
+	urldate = {2011-04-15}
+}
+
+@misc{collectingtwitter,
+	title={Collecting Twitter Data: Getting Started},
+	author={Dolinar, Sean },
+	howpublished = {\url{https://stats.seandolinar.com/collecting-twitter-data-getting-started/}},
+	urldate = {2015-01-23}
+}
+
+@article{barr2011building,
+	title={Building fault-tolerant applications on AWS},
+	author={Barr, Jeff and Narin, Attila and Varia, Jinesh},
+	journal={Amazon Web Services},
+	pages={1--15},
+	year={2011}
+}
